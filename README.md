@@ -14,16 +14,23 @@ To write a program to find the GCD of two numbers using function.
 4. Use for() and if() loop to find the GCD of the two numbers.
 
 ## Program:
+```python
+#Program to find the gcd of a number using function
+#Developed by: ROGITH. K
+#Register no: 212223110042
+def gcd():
+    n1,n2=int(input()),int(input())
+    if n1>n2:
+        smaller=n2
+    else:
+        smaller=n1
+    for i in range(1,smaller+1):
+        if(n1%i==0 and n2%i==0):
+            hcf=i
+    print("GCD of two numbers is:",hcf)
 ```
-/*
-Program to find the gcd of two number using function.
-Developed by: 
-RegisterNumber:  
-*/
-```
-
 ## Output:
-
+![alt text](<Screenshot 2024-04-08 222046.png>)
 
 
 ## Result:
